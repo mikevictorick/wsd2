@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Laundry Room Designs</title>
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 	
 	<body>
@@ -10,10 +11,15 @@
 	
 <!-- main navigation -->
 
+	<header>
 		<h2>
-		Laundry Room Designs 
-		<img src="images/lrd-logo.png" alt="Logo" height="60px">
+		<span class="lrd-text">Laundry Room Designs</span> 
 		</h2>
+		
+		<div id="logo">
+		<img src="images/lrd-logo.png" alt="Logo" height="80px">
+		</div>
+		
 		
 		<nav>
 			<ul>
@@ -22,30 +28,33 @@
 				<li><a href="#">News</a></li>
 			</ul>
 		</nav>			
+	</header>
 		
 <!-- about section -->		
 		
-		<section>
+		<section class="about">
 			<img src="images/cfb.png" alt="clean fresh brillaint design">
-		
+			
+		<article class="about-article">	
 			<h1>
 			Guess what we're all about?
 			</h1>
-				<p>
+				<p id="about-text">
 				The question should really be "Guess where we started"? Weird as it sounds it was the laundry room. Definitely kismet as a laundry room is <em>supposed</em> to be <strong>Clean</strong>. If coding and design is done correctly we feel it will be clean...Thus the creation of Laundry Room Design!</p>
+		</article>
 		</section>		
 		
 <!-- gallery -->			
 		
-		<section>
+		<section id="gallery">
 			<h2>
 				Gallery
 			</h2>	
 			
 				<ul>
-					<li><a href="#" target="blank"><img src="images/laundry-explained.jpg" alt="laundry symbols" height="75"></a></li>
-					<li><a href="#" target="blank"><img src="images/laundry-icons.jpg" alt="laundry icons" height="75"></a></li>
-					<li><a href="#" target="blank"><img src="images/parallax-is-awesome.jpg" alt="Five3 Makes awesome websites!" height="75"></a></li>
+					<li><a href="images/laundry-explained.jpg" target="blank"><img src="images/laundry-explained-thumb.jpg" alt="laundry symbols" width="250" height="250"></a></li>
+					<li><a href="images/laundry-icons.jpg" target="blank"><img src="images/laundry-icons-thumb.jpg" alt="laundry icons" width="250" height="250"></a></li>
+					<li><a href="images/parallax-is-awesome.jpg" target="blank"><img src="images/parallax-is-awesome-thumb.jpg" alt="Five3 Makes awesome websites!" width="250" height="250"></a></li>
 				</ul>
 		</section>
 		
@@ -83,6 +92,6 @@
 				&copy;copyright 2012 Laundry Room Designs
 			</p>
 		</footer>
-	</div>			
+	</div >			
 	</body>
 </html>			
