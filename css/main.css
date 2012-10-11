@@ -375,9 +375,13 @@ footer p{
 	/*Tablet Portrait size to standard 960(devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
 	
-		#wrapper {background-color: #509cff;}
+		#wrapper background: url(../images/bg.png)  
+		h1, h2, h3 { font-family: 'OstrichSansBlack', helvetica, sans-serif; font-size: 4em; } /* 36px; */
+
+		p { font-family: 'OstrichSansCondensedLight', helvetica, sans-serif;
+			font-size: 1em; } /* 14px; */
 	
-	}
+			}
 	
 	
 	/*Tablet Portrait size to standard 960(devices and browsers) */
