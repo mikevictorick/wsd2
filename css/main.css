@@ -375,7 +375,7 @@ footer p{
 	/*Tablet Portrait size to standard 960(devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px) {
 	
-		#wrapper background: url(../images/bg.png)  
+		#wrapper {background-image: url(../images/bg.png)}   
 		h1, h2, h3 { font-family: 'OstrichSansBlack', helvetica, sans-serif; font-size: 4em; } /* 36px; */
 
 		p { font-family: 'OstrichSansCondensedLight', helvetica, sans-serif;
@@ -424,7 +424,6 @@ footer p{
 	@media screen and (max-width: 479px) {
 	
 		#wrapper {background-image: none; background-color: #fff}
-		{display: none;}
 		section, aside {float: none; width: 90%;}
 		h1, h2, h3, p {font-family: "Helvetica Neue", Arial}
 		aside {display: none;}
