@@ -341,7 +341,7 @@ form label {
 form label b {
 	display: block;
 	float: left;
-	width; width: 26.666666666667; /* 80px; */
+	width; width: 26.666666666667%; /* 80px; */
 	margin-right: 2.222222%; /* 20px; */
 }
 
@@ -352,7 +352,7 @@ form label input, form label textarea, form label select {
 
 form label input [type="radio"]
 form label input [type="checkbox"] {
-	width: 26.666666666667; /* 80px; */
+	width: 26.666666666667%; /* 80px; */
 }
 
 form p {
@@ -513,8 +513,8 @@ footer p{
 				background-color: rgba(0,0,0,0.3);
 				display: block;
 				width: 100%; /* 150px; */
-				text-align: none;
-				font-family: 'OstrichSansBold', serif;
+				text-align: left;
+				font-family: 'Raleway Dots', serif;
 				font-size: 1.4em;
 			}
 			
